@@ -1,0 +1,11 @@
+1TDSPI
+Agatha Pires- RM552247 
+Enrico do Nascimento- RM552082 
+Fabricio Torres - RM97916 
+Guilherme Magalhães - RM551805 
+Ming - RM99150
+
+Professor por favor utilize o email e senha a seguir para testar a pagina "CADASTRO"
+
+login: grupoas@gmail.com
+senha: vencedores

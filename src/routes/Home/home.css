@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Montserrat', sans-serif;;
+    
+  }
+  #header__primario{
+    width: 100%;
+    height: 70px;
+    padding-left: 100px;
+    margin-bottom: 10%;
+    background-color: #ffffff;    
+  }
+  
+  .logo__img{
+    top: 20px;
+    left: 15px;
+    position: absolute;
+    height: 200px;
+    width: 300px;
+  }
+  .nav{
+    padding-right: 7%;
+    padding-top: 8%;
+    padding-left: 200px;
+    font-weight: 600;
+    font-size: 20px ;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+    gap: 2%;
+    
+  }
+  .botao__cadastro{
+    background-color: #00B0F2;
+    color: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    font-size: 19px;
+    font-weight: 900;
+    
+  }
+  .botao__login{
+    background-color: #BCBCBC;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  .nav__link{
+    color: black;
+  }
+  .parceria__img{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    
+  }
+  hr{
+    margin-bottom: 3%;
+  }
+  .titulo__main{
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 3%;
+    max-width: 440px;
+    margin: auto;
+    text-align: center;
+    
+  }
+  
+  h2{
+    font-weight: 800;
+    color: black;
+    margin-bottom: 2%;
+  }
+  
+  .foto__cadastro{
+    margin: auto;
+  }
+  footer{
+  
+    background-color: #00B0F2;
+    height: 100px;
+    width: 100%;
+  }
+  .nomes{
+    padding-top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    
+  }
+  .nomes__nome{
+    color: white;
+    font-weight: 200;
+    
+  }
+  .nomes__nome__footer{
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+  }
+  main{
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    .body {
+        max-width: 100%;
+    }
+  }
+  

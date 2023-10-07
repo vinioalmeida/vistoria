@@ -1,0 +1,28 @@
+.container__nosso {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .titulo__nosso {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  ul {
+    margin-left: 20px;
+    list-style-type: disc;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    .container__nosso {
+        max-width: 100%;
+    }
+  }
+  

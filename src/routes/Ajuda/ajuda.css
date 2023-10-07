@@ -1,0 +1,48 @@
+form{
+  
+    width: 300px;
+    margin: auto;
+  }
+  form label{
+  
+    display: inline-block;
+    width: 100px;
+  }
+  form input, form select{
+  
+    margin-bottom: 10px;
+  }
+  .container form{
+  
+    
+    height: 50%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .container h1{
+    margin: 2px solid black;
+  
+    margin: 5%;
+  }
+  form{
+    background-color: #00B0F2;
+    padding: 2%;
+    border-radius: 12px;
+  }
+  .titulo__cadastro{
+    color: black;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 5%;
+    max-width: 440px;
+    margin: auto;
+    text-align: center;
+  }
+  @media screen and (max-width: 768px) {
+    .container__form {
+        max-width: 100%;
+    }
+  }

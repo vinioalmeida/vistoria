@@ -1,0 +1,41 @@
+.container__sobre {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .titulo__sobre {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .p__sobre {
+    margin-bottom: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    .container__sobre {
+        max-width: 100%;
+    }
+  }
+  /* -------pagina ajuda-------- */
+  .container__ajuda {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .titulo__ajuda {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .p__ajuda {
+    margin-bottom: 20px;
+  }
+  

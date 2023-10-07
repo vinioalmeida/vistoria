@@ -1,0 +1,32 @@
+.container__pergs {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .titulo__pergs {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .pergunta {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .resposta {
+    color: #333;
+  }
+  @media screen and (max-width: 768px) {
+    .container__pergs {
+        max-width: 100%;
+    }
+  }
+  
